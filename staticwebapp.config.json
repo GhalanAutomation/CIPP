@@ -43,6 +43,10 @@
       "allowedRoles": ["admin"]
     },
     {
+      "route": "/api/RemoveGroupTemplate",
+      "allowedRoles": ["admin"]
+    },
+    {
       "route": "/api/add*",
       "allowedRoles": ["admin", "editor", "advanced"]
     },
@@ -70,10 +74,7 @@
       "route": "/api/AddGroupTemplate",
       "allowedRoles": ["admin"]
     },
-    {
-      "route": "/api/RemoveGroupTemplate",
-      "allowedRoles": ["admin"]
-    },
+  
     {
       "route": "/api/ExecOffboardTenant",
       "allowedRoles": ["admin", "editor"]
