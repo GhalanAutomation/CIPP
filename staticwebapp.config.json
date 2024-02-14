@@ -68,7 +68,11 @@
     },
     {
       "route": "/api/AddGroupTemplate",
-      "allowedRoles": ["admin", "editor"]
+      "allowedRoles": ["admin"]
+    },
+    {
+      "route": "/api/RemoveGroupTemplate",
+      "allowedRoles": ["admin"]
     },
     {
       "route": "/api/ExecOffboardTenant",
