@@ -24,7 +24,7 @@
     },
     {
       "route": "/api/ExecSAMSetup",
-      "allowedRoles": ["admin", "editor", "readonly", "authenticated", "anonymous", "l3"]
+      "allowedRoles": ["admin", "editor", "readonly", "authenticated", "anonymous", "advanced"]
     },
     {
       "route": "/api/AddStandardsDeploy",
@@ -32,11 +32,11 @@
     },
     {
       "route": "/LogoutRedirect",
-      "allowedRoles": ["admin", "editor", "readonly", "authenticated", "anonymous", "l3"]
+      "allowedRoles": ["admin", "editor", "readonly", "authenticated", "anonymous", "advanced"]
     },
     {
       "route": "/404",
-      "allowedRoles": ["admin", "editor", "readonly", "authenticated", "anonymous", "l3"]
+      "allowedRoles": ["admin", "editor", "readonly", "authenticated", "anonymous", "advanced"]
     },
     {
       "route": "/api/RemoveStandard",
@@ -44,15 +44,15 @@
     },
     {
       "route": "/api/add*",
-      "allowedRoles": ["admin", "editor", "l3"]
+      "allowedRoles": ["admin", "editor", "advanced"]
     },
     {
       "route": "/api/edit*",
-      "allowedRoles": ["admin", "editor", "l3"]
+      "allowedRoles": ["admin", "editor", "advanced"]
     },
     {
       "route": "/api/ExecSendPush",
-      "allowedRoles": ["admin", "editor", "readonly", "l3"]
+      "allowedRoles": ["admin", "editor", "readonly", "advanced"]
     },
     {
       "route": "/api/ExecExcludeTenant",
@@ -60,11 +60,11 @@
     },
     {
       "route": "/api/Exec*",
-      "allowedRoles": ["admin", "editor", "l3"]
+      "allowedRoles": ["admin", "editor", "advanced"]
     },
     {
       "route": "/api/Remove*",
-      "allowedRoles": ["admin", "editor", "l3"]
+      "allowedRoles": ["admin", "editor", "advanced"]
     },
     {
       "route": "/api/AddGroupTemplate",
@@ -84,15 +84,15 @@
     },
     {
       "route": "/",
-      "allowedRoles": ["admin", "editor", "readonly", "reader", "authenticated", "anonymous", "l3"]
+      "allowedRoles": ["admin", "editor", "readonly", "reader", "authenticated", "anonymous", "advanced"]
     },
     {
       "route": "/api/Public*",
-      "allowedRoles": ["admin", "editor", "readonly", "reader", "authenticated", "anonymous", "l3"]
+      "allowedRoles": ["admin", "editor", "readonly", "reader", "authenticated", "anonymous", "advanced"]
     },
     {
       "route": "*",
-      "allowedRoles": ["admin", "editor", "readonly", "reader", "l3"]
+      "allowedRoles": ["admin", "editor", "readonly", "reader", "advanced"]
     }
   ],
   "navigationFallback": {
