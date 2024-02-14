@@ -24,7 +24,7 @@
     },
     {
       "route": "/api/ExecSAMSetup",
-      "allowedRoles": ["admin", "editor", "readonly", "authenticated", "anonymous", "L3"]
+      "allowedRoles": ["admin", "editor", "readonly", "authenticated", "anonymous", "l3"]
     },
     {
       "route": "/api/AddStandardsDeploy",
@@ -32,11 +32,11 @@
     },
     {
       "route": "/LogoutRedirect",
-      "allowedRoles": ["admin", "editor", "readonly", "authenticated", "anonymous", "L3"]
+      "allowedRoles": ["admin", "editor", "readonly", "authenticated", "anonymous", "l3"]
     },
     {
       "route": "/404",
-      "allowedRoles": ["admin", "editor", "readonly", "authenticated", "anonymous", "L3"]
+      "allowedRoles": ["admin", "editor", "readonly", "authenticated", "anonymous", "l3"]
     },
     {
       "route": "/api/RemoveStandard",
@@ -44,15 +44,15 @@
     },
     {
       "route": "/api/add*",
-      "allowedRoles": ["admin", "editor", "L3"]
+      "allowedRoles": ["admin", "editor", "l3"]
     },
     {
       "route": "/api/edit*",
-      "allowedRoles": ["admin", "editor", "L3"]
+      "allowedRoles": ["admin", "editor", "l3"]
     },
     {
       "route": "/api/ExecSendPush",
-      "allowedRoles": ["admin", "editor", "readonly", "L3"]
+      "allowedRoles": ["admin", "editor", "readonly", "l3"]
     },
     {
       "route": "/api/ExecExcludeTenant",
@@ -60,11 +60,11 @@
     },
     {
       "route": "/api/Exec*",
-      "allowedRoles": ["admin", "editor", "L3"]
+      "allowedRoles": ["admin", "editor", "l3"]
     },
     {
       "route": "/api/Remove*",
-      "allowedRoles": ["admin", "editor", "L3"]
+      "allowedRoles": ["admin", "editor", "l3"]
     },
     {
       "route": "/api/AddGroupTemplate",
@@ -84,15 +84,15 @@
     },
     {
       "route": "/",
-      "allowedRoles": ["admin", "editor", "readonly", "reader", "authenticated", "anonymous", "L3"]
+      "allowedRoles": ["admin", "editor", "readonly", "reader", "authenticated", "anonymous", "l3"]
     },
     {
       "route": "/api/Public*",
-      "allowedRoles": ["admin", "editor", "readonly", "reader", "authenticated", "anonymous", "L3"]
+      "allowedRoles": ["admin", "editor", "readonly", "reader", "authenticated", "anonymous", "l3"]
     },
     {
       "route": "*",
-      "allowedRoles": ["admin", "editor", "readonly", "reader", "L3"]
+      "allowedRoles": ["admin", "editor", "readonly", "reader", "l3"]
     }
   ],
   "navigationFallback": {
