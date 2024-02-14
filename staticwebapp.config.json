@@ -47,6 +47,14 @@
       "allowedRoles": ["admin"]
     },
     {
+      "route": "/api/AddGroupTemplate",
+      "allowedRoles": ["admin"]
+    },
+    {
+      "route": "/api/ExecOffboardTenant",
+      "allowedRoles": ["admin", "editor"]
+    },
+    {
       "route": "/api/add*",
       "allowedRoles": ["admin", "editor", "advanced"]
     },
@@ -69,15 +77,6 @@
     {
       "route": "/api/Remove*",
       "allowedRoles": ["admin", "editor", "advanced"]
-    },
-    {
-      "route": "/api/AddGroupTemplate",
-      "allowedRoles": ["admin"]
-    },
-  
-    {
-      "route": "/api/ExecOffboardTenant",
-      "allowedRoles": ["admin", "editor"]
     },
     {
       "route": "/cipp/*",
