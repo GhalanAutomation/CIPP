@@ -86,7 +86,6 @@
       "route": "/api/edit*",
       "allowedRoles": ["admin", "editor"]
     },
-
     {
       "route": "/api/Exec*",
       "allowedRoles": ["admin", "editor"]
@@ -102,22 +101,18 @@
     {
       "route": "/tenant/tools/bpa-report-builder*",
       "allowedRoles":["admin"]
-
     },
     {
       "route": "/endpoint/intune/MEMListPolicyTemplates",
       "allowedRoles":["admin"]
-
     },
     {
       "route": "/endpoint/intune/MEMListPolicies",
       "allowedRoles":["admin"]
-
     },
     {
       "route": "/endpoint/applications/*",
       "allowedRoles":["admin"]
-
     },
     {
       "route": "/tenant/standards/*",
