@@ -100,7 +100,7 @@
       "allowedRoles": ["admin"]
     },
     {
-      "route": "/tenant/standards/BPAReportBuilder",
+      "route": "/tenant/tools/bpa-report-builder*",
       "allowedRoles":["admin"]
 
     },
