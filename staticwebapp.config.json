@@ -43,6 +43,10 @@
       "allowedRoles": ["admin"]
     },
     {
+      "route": "/api/EditTenant",
+      "allowedRoles": ["admin"]
+    },
+    {
       "route": "/api/RemoveStandard",
       "allowedRoles": ["admin"]
     },
@@ -94,6 +98,26 @@
     {
       "route": "/cipp/*",
       "allowedRoles": ["admin"]
+    },
+    {
+      "route": "/tenant/standards/BPAReportBuilder",
+      "allowedRoles":["admin"]
+
+    },
+    {
+      "route": "/endpoint/intune/MEMListPolicyTemplates",
+      "allowedRoles":["admin"]
+
+    },
+    {
+      "route": "/endpoint/intune/MEMListPolicies",
+      "allowedRoles":["admin"]
+
+    },
+    {
+      "route": "/endpoint/applications/*",
+      "allowedRoles":["admin"]
+
     },
     {
       "route": "/tenant/standards/*",
