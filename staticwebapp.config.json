@@ -23,20 +23,24 @@
       "redirect": "/.auth/logout?post_logout_redirect_uri=/LogoutRedirect"
     },
     {
-      "route": "/api/ExecSAMSetup",
-      "allowedRoles": ["admin", "editor", "readonly", "authenticated", "anonymous", "advanced"]
+      "route": "/LogoutRedirect",
+      "allowedRoles": ["admin", "editor", "readonly", "authenticated", "anonymous"]
+    },
+    {
+      "route": "/404",
+      "allowedRoles": ["admin", "editor", "readonly", "authenticated", "anonymous"]
     },
     {
       "route": "/api/AddStandardsDeploy",
       "allowedRoles": ["admin"]
     },
     {
-      "route": "/LogoutRedirect",
-      "allowedRoles": ["admin", "editor", "readonly", "authenticated", "anonymous", "advanced"]
+      "route": "/api/AddGroupTemplate",
+      "allowedRoles": ["admin"]
     },
     {
-      "route": "/404",
-      "allowedRoles": ["admin", "editor", "readonly", "authenticated", "anonymous", "advanced"]
+      "route": "/api/AddCATemplate",
+      "allowedRoles": ["admin"]
     },
     {
       "route": "/api/RemoveStandard",
@@ -47,36 +51,45 @@
       "allowedRoles": ["admin"]
     },
     {
-      "route": "/api/AddGroupTemplate",
+      "route": "/api/RemoveCATemplate",
       "allowedRoles": ["admin"]
+    },
+    {
+      "route": "/api/ExecEditTemplate",
+      "allowedRoles": ["admin"]
+    },
+    {
+      "route": "/api/ExecSAMSetup",
+      "allowedRoles": ["admin", "editor", "readonly", "authenticated", "anonymous"]
     },
     {
       "route": "/api/ExecOffboardTenant",
       "allowedRoles": ["admin", "editor"]
     },
     {
-      "route": "/api/add*",
-      "allowedRoles": ["admin", "editor", "advanced"]
-    },
-    {
-      "route": "/api/edit*",
-      "allowedRoles": ["admin", "editor", "advanced"]
-    },
-    {
-      "route": "/api/ExecSendPush",
-      "allowedRoles": ["admin", "editor", "readonly", "advanced"]
-    },
-    {
       "route": "/api/ExecExcludeTenant",
       "allowedRoles": ["admin"]
     },
     {
+      "route": "/api/ExecSendPush",
+      "allowedRoles": ["admin", "editor", "readonly"]
+    },
+    {
+      "route": "/api/add*",
+      "allowedRoles": ["admin", "editor"]
+    },
+    {
+      "route": "/api/edit*",
+      "allowedRoles": ["admin", "editor"]
+    },
+
+    {
       "route": "/api/Exec*",
-      "allowedRoles": ["admin", "editor", "advanced"]
+      "allowedRoles": ["admin", "editor"]
     },
     {
       "route": "/api/Remove*",
-      "allowedRoles": ["admin", "editor", "advanced"]
+      "allowedRoles": ["admin", "editor"]
     },
     {
       "route": "/cipp/*",
@@ -88,15 +101,15 @@
     },
     {
       "route": "/",
-      "allowedRoles": ["admin", "editor", "readonly", "reader", "authenticated", "anonymous", "advanced"]
+      "allowedRoles": ["admin", "editor", "readonly", "reader", "authenticated", "anonymous"]
     },
     {
       "route": "/api/Public*",
-      "allowedRoles": ["admin", "editor", "readonly", "reader", "authenticated", "anonymous", "advanced"]
+      "allowedRoles": ["admin", "editor", "readonly", "reader", "authenticated", "anonymous"]
     },
     {
       "route": "*",
-      "allowedRoles": ["admin", "editor", "readonly", "reader", "advanced"]
+      "allowedRoles": ["admin", "editor", "readonly", "reader"]
     }
   ],
   "navigationFallback": {
