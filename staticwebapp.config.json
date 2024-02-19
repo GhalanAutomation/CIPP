@@ -31,16 +31,20 @@
       "allowedRoles": ["admin"]
     },
     {
-      "route": "/tenant/tools/bpa-report-builder",
-      "allowedRoles":["admin"]
-    },
-    {
       "route": "/api/AddGroupTemplate",
       "allowedRoles": ["admin"]
     },
     {
       "route": "/api/AddCATemplate",
       "allowedRoles": ["admin"]
+    },
+    {
+      "route": "/endpoint/MEM/ListTemplates*",
+      "allowedRoles":["admin"]
+    },
+    {
+      "route": "/endpoint/MEM/list-policies*",
+      "allowedRoles":["admin"]
     },
     {
       "route": "/LogoutRedirect",
@@ -101,14 +105,6 @@
     {
       "route": "/cipp/*",
       "allowedRoles": ["admin"]
-    },
-    {
-      "route": "/endpoint/MEM/ListTemplates*",
-      "allowedRoles":["admin"]
-    },
-    {
-      "route": "/endpoint/MEM/list-policies*",
-      "allowedRoles":["admin"]
     },
     {
       "route": "/endpoint/applications/*",
