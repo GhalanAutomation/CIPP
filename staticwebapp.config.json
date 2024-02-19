@@ -39,12 +39,8 @@
       "allowedRoles": ["admin"]
     },
     {
-      "route": "/endpoint/MEM/ListTemplates*",
-      "allowedRoles":["admin"]
-    },
-    {
-      "route": "/endpoint/MEM/list-policies*",
-      "allowedRoles":["admin"]
+      "route": "/api/AddIntuneTemplate",
+      "allowedRoles": ["admin"]
     },
     {
       "route": "/LogoutRedirect",
@@ -68,6 +64,14 @@
     },
     {
       "route": "/api/RemoveCATemplate",
+      "allowedRoles": ["admin"]
+    },
+    {
+      "route": "/api/RemoveIntuneTemplate",
+      "allowedRoles": ["admin"]
+    },
+    {
+      "route": "/api/RemovePolicy",
       "allowedRoles": ["admin"]
     },
     {
