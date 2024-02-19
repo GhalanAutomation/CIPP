@@ -43,6 +43,22 @@
       "allowedRoles": ["admin"]
     },
     {
+      "route": "/api/AddDefenderDeployment",
+      "allowedRoles": ["admin"]
+    },
+    {
+      "route": "/api/AddTransportTemplate",
+      "allowedRoles": ["admin"]
+    },
+    {
+      "route": "/api/AddEXConnectTemplate",
+      "allowedRoles": ["admin"]
+    },
+    {
+      "route": "/api/AddSpamfilterTemplate",
+      "allowedRoles": ["admin"]
+    },
+    {
       "route": "/LogoutRedirect",
       "allowedRoles": ["admin", "editor", "readonly", "authenticated", "anonymous"]
     },
@@ -68,6 +84,18 @@
     },
     {
       "route": "/api/RemoveIntuneTemplate",
+      "allowedRoles": ["admin"]
+    },
+    {
+      "route": "/api/RemoveTransportRule",
+      "allowedRoles": ["admin"]
+    },
+    {
+      "route": "/api/RemoveEXConnectTemplate",
+      "allowedRoles": ["admin"]
+    },
+    {
+      "route": "/api/RemoveSpamfilterTemplate",
       "allowedRoles": ["admin"]
     },
     {
