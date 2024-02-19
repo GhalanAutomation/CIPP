@@ -31,6 +31,10 @@
       "allowedRoles": ["admin"]
     },
     {
+      "route": "/tenant/tools/bpa-report-builder",
+      "allowedRoles":["admin"]
+    },
+    {
       "route": "/api/AddGroupTemplate",
       "allowedRoles": ["admin"]
     },
@@ -97,10 +101,6 @@
     {
       "route": "/cipp/*",
       "allowedRoles": ["admin"]
-    },
-    {
-      "route": "/tenant/tools/bpa-report-builder*",
-      "allowedRoles":["admin"]
     },
     {
       "route": "/endpoint/MEM/ListTemplates*",
