@@ -99,22 +99,6 @@
       "allowedRoles": ["admin"]
     },
     {
-      "route": "/tenant/tools/bpa-report-builder*",
-      "allowedRoles":["admin"]
-    },
-    {
-      "route": "/endpoint/MEM/ListTemplates*",
-      "allowedRoles":["admin"]
-    },
-    {
-      "route": "/endpoint/MEM/list-policies*",
-      "allowedRoles":["admin"]
-    },
-    {
-      "route": "/endpoint/applications/*",
-      "allowedRoles":["admin"]
-    },
-    {
       "route": "/tenant/standards/*",
       "allowedRoles": ["admin"]
     },
