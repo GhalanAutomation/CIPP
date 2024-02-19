@@ -103,11 +103,11 @@
       "allowedRoles":["admin"]
     },
     {
-      "route": "/endpoint/intune/MEMListPolicyTemplates",
+      "route": "/endpoint/MEM/ListTemplates*",
       "allowedRoles":["admin"]
     },
     {
-      "route": "/endpoint/intune/MEMListPolicies",
+      "route": "/endpoint/MEM/list-policies*",
       "allowedRoles":["admin"]
     },
     {
