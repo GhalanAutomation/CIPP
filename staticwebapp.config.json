@@ -31,6 +31,10 @@
       "allowedRoles": ["admin"]
     },
     {
+      "route": "/api/AddAlert",
+      "allowedRoles": ["admin"]
+    },
+    {
       "route": "/api/AddGroupTemplate",
       "allowedRoles": ["admin"]
     },
@@ -68,6 +72,10 @@
     },
     {
       "route": "/api/EditTenant",
+      "allowedRoles": ["admin"]
+    },
+    {
+      "route": "/api/RemoveQueuedAlert",
       "allowedRoles": ["admin"]
     },
     {
